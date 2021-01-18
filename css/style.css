@@ -1,0 +1,75 @@
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_globals.css);
+
+
+.header_area .main-menu .navbar{
+    padding: 1rem 5rem ;
+    background-color: aliceblue;
+}
+
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+    margin-right: 1%;
+    margin-left: 5%;
+}
+
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    margin-left: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+    margin-left: 35%;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1rem;
+    margin-left: 35%;
+}
+
+.site-main .site-banner .banner > img{
+    padding: 12rem 0;
+    width: 40rem;
+}
+
+
+
+
+
+/* End Banner Area */ 
+/* Start About Area */ 
+
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
